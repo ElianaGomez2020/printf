@@ -1,0 +1,20 @@
+.TH man 2 "02 08 2020" "0.01" "_printf man page"
+.SH NAME
+
+_printf
+  
+This function _printf print data in the standard output
+
+.SH SYNOPSIS
+int _printf(const char *format, ...);
+
+
+.SH DESCRIPTION
+
+Prints ARGUMENT(s) according to the FORMAT or execution option.
+
+
+.SH % FORMAT
+.RS
+.nf
+
