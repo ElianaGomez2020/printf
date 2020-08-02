@@ -24,8 +24,10 @@ int _printf(const char *format, ...)
 				if (*format == 'i' || *format == 'd')
 					printcounter += print_int(argument);
 				if (*format == '%')
+				{
 					_putchar('%');
 					printcounter += 1;
+				}
 				if (*format == '\0')
 					return (-1);
 			}
