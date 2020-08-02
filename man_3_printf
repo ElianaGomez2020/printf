@@ -18,3 +18,4 @@ Prints ARGUMENT(s) according to the FORMAT or execution option.
 .RS
 .nf
 
+%c Format to print a single character 
