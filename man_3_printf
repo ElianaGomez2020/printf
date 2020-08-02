@@ -23,3 +23,4 @@ Prints ARGUMENT(s) according to the FORMAT or execution option.
 %d Format to print a decimal (base 10) number
 %i Format to print an integer a base 10 number
 
+.SH AUTHOR
