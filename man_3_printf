@@ -18,4 +18,5 @@ Prints ARGUMENT(s) according to the FORMAT or execution option.
 .RS
 .nf
 
-%c Format to print a single character 
+%c Format to print a single character
+%s Format to print a string of character 
