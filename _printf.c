@@ -10,7 +10,6 @@ int _printf(const char *format, ...)
 	int printcounter = 0;
 
 	va_start(argument, format);
-
 	if (*format != '\0')
 	{
 		for (; *format != '\0'; format++)
@@ -25,17 +24,22 @@ int _printf(const char *format, ...)
 				if (*format == 'i' || *format == 'd')
 					printcounter += print_int(argument);
 				if (*format == '%')
-					_putchar('%'), printcounter += 1;
+					_putchar('%');
+					printcounter += 1;
 				if (*format == '\0')
 					return (-1);
 				if (*format != 'c' && *format != 's' && *format != 'i'
-				&& *format != 'd' && *format != '%' && *format != '\0')
+				 && *format != 'd' && *format != '%' && *format != '\0')
 				{
-					_putchar('%'), _putchar(*format), printcounter += 2;
+					_putchar('%');
+					_putchar(*format);
+					printcounter += 2;
 				}
-			else
 			}
-				_putchar(*format), printcounter++;
+			else
+			{
+				_putchar(*format);
+				printcounter++;
 			}
 		}
 		return (printcounter);
