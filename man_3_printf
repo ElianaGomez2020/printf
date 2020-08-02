@@ -25,3 +25,16 @@ Prints ARGUMENT(s) according to the FORMAT or execution option.
 
 .SH AUTHOR
 Written by Juan José Torres Suárez & Eliana Gómez Suárez.
+
+.SH REPORTING BUGS
+Under construction.
+
+.SH CREDITS
+.PP 
+This man page is created for academic purpose, to make our own _printf project by Juan José Torres Suárez and Eliana Gómez Suárez,
+Holberton School Students.
+
+.SH SEE ALSO
+ Documentation source to create this man page function on <https://www.gnu.org/software/coreutils/printf> 
+
+.PP
