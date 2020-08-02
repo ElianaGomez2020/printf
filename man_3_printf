@@ -21,4 +21,5 @@ Prints ARGUMENT(s) according to the FORMAT or execution option.
 %c Format to print a single character
 %s Format to print a string of character 
 %d Format to print a decimal (base 10) number
+%i Format to print an integer a base 10 number
 
