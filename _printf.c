@@ -28,13 +28,10 @@ int _printf(const char *format, ...)
 					printcounter += 1;
 				if (*format == '\0')
 					return (-1);
-				if (*format != 'c' && *format != 's' && *format != 'i'
-				 && *format != 'd' && *format != '%' && *format != '\0')
-				{
+				else
 					_putchar('%');
-					_putchar(*format);
+					_puchar(*format);
 					printcounter += 2;
-				}
 			}
 			else
 			{
