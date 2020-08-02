@@ -28,10 +28,6 @@ int _printf(const char *format, ...)
 					printcounter += 1;
 				if (*format == '\0')
 					return (-1);
-				else
-					_putchar('%');
-					_puchar(*format);
-					printcounter += 2;
 			}
 			else
 			{
