@@ -8,6 +8,7 @@ int _printf(const char *format, ...)
 {
 	va_list argument;
 	int printcounter = 0;
+
 	va_start(argument, format);
 	if (*format != '\0')
 	{
