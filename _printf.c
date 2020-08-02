@@ -10,6 +10,7 @@ int _printf(const char *format, ...)
 	int printcounter = 0;
 
 	va_start(argument, format);
+
 	if (*format != '\0')
 	{
 		for (; *format != '\0'; format++)
